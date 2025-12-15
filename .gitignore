@@ -1,0 +1,61 @@
+# -------------------------
+# Node / General
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# -------------------------
+# Frontend (client)
+# -------------------------
+client/.next/
+client/out/
+client/.vercel/
+client/node_modules/
+client/package-lock.json
+client/yarn.lock
+client/.env.local
+client/.env.*.local
+client/coverage/
+client/dist/
+
+# -------------------------
+# Backend (server)
+# -------------------------
+server/node_modules/
+server/dist/
+server/build/
+server/.env
+server/.env.local
+server/coverage/
+server/uploads/
+server/logs/
+
+# -------------------------
+# Root
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+
+# Ignore temp files used for folder deletion
+client/src/app/property/delete.me*
+client/src/app/data/delete.me*
