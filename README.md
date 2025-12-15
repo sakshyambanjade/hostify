@@ -1,79 +1,88 @@
-# 🏠 HOSTIFY – Authentication Pages
+## HOSTIFY - Property Rental Platform
 
-A modern, secure, and user-friendly authentication system for the **HOSTIFY** property rental platform.
-
----
-
-## ✨ Features
-
-### 🔐 Security & Credibility
-- **Real Material-UI Icons** – Professional Google, Facebook, and Apple social icons  
-- **Removed OAuth Handlers** – No fake social login flows for improved security  
-- **Input Validation** – Email format validation and password strength checks  
-- **Error Handling** – Clear and user-friendly error messages  
+A full-stack property rental application built with Next.js, React, Node.js, and MongoDB. Book properties, manage listings, and connect with hosts and guests.
 
 ---
 
-### 🎨 User Experience
-- **Responsive Design** – Mobile-first approach using Tailwind CSS  
-- **Consistent Styling** – Login and Signup pages share the same design language  
-- **Professional Background** – Atmospheric background image with dark overlay  
-- **Orange Focus States** – Orange accent color on input focus for better usability  
-- **Loading States** – Visual feedback during form submission  
+## Features
+
+### Authentication System
+- User login and signup with email validation
+- Password strength validation (minimum 6 characters)
+- Password confirmation matching
+- Real-time form validation with error messages
+- Real Material-UI social icons (Google, Facebook, Apple)
+- Secure credential handling
+- Professional background with consistent styling
 
 ---
 
-### 🔑 Form Features
-- **Email Validation** – Proper email format checking  
-- **Password Validation** – Minimum 6-character requirement  
-- **Password Confirmation** – Match validation on the signup page  
-- **Real-time Error Display** – Errors appear instantly below each field  
-- **Black Text Input** – Clear text visibility while typing  
-- **Professional Footer** – Privacy Policy, Terms & Conditions, and Contact links  
+### Property Management
+- Browse properties with search functionality
+- View property details with full information
+- Property listings with images and amenities
+- Filter properties by location and availability
+- Property cards with key information display
 
 ---
 
-## 🎯 Page Features
-
-### Login Page
-- Email and password fields  
-- Form validation with error messages  
-- Sign In button with loading state  
-- Social login icons (Google, Facebook, Apple)  
-- Link to the Signup page  
-- Professional header navigation  
-- Footer with policy links  
+### User Features
+- User profiles and authentication state management
+- Likes/Favorites functionality for properties
+- Persistent user sessions
+- Navigation between pages
 
 ---
 
-### Signup Page
-- Full Name field  
-- Email field  
-- Password field  
-- Confirm Password field  
-- Form validation with error messages  
-- Sign Up button with loading state  
-- Social signup icons (Google, Facebook, Apple)  
-- Link to the Login page  
-- Professional header navigation  
-- Footer with policy links  
+### UI/UX
+- Responsive design for all devices
+- Professional header with navigation
+- Clean and modern interface
+- Consistent color scheme (orange primary color)
+- Mobile-first approach
+- Accessible form inputs with proper labels
 
 ---
 
-## 🎨 Design Highlights
-- **Consistent Theme** – Shared background image and styling across pages  
-- **White Form Cards** – Clean, centered form containers  
-- **Tailwind CSS Styling** – Utility-first responsive design  
-- **Material-UI Icons** – Professional and recognizable icon set  
-- **Mobile Responsive** – Optimized for all screen sizes  
-- **Accessible** – Proper labels and clear error messages for all inputs  
+### CRUD Operations
+- **Create:** User registration, property listings, favorites
+- **Read:** View properties, user profiles, property details
+- **Update:** User preferences, property information
+- **Delete:** Remove favorites, manage listings
 
 ---
 
-## 🛠 Tech Stack Used
-- **Next.js** – React framework  
-- **React** – UI library  
-- **TypeScript** – Type safety  
-- **Tailwind CSS** – Styling  
-- **Material-UI Icons** – Icon library  
-- **Zustand** – State management  
+## Tech Stack
+
+### Frontend
+- Next.js (React framework)
+- React 18
+- TypeScript
+- Tailwind CSS
+- Material-UI Icons
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (database)
+- Zustand (state management)
+
+---
+
+### Tools & Libraries
+- npm (package manager)
+- Git (version control)
+
+---
+
+## Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Install Material-UI icons
+npm install @mui/icons-material @emotion/react @emotion/styled
+
+# Run development server
+npm run dev
